@@ -1,5 +1,5 @@
 #use the latest stable PHP + Apache
-FROM php:8.3-Apache
+FROM php:8.3-apache
 
 #Enable Apache rewrite
 RUN a2enmod rewrite
